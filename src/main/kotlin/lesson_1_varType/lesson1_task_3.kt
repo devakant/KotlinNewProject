@@ -5,7 +5,7 @@ fun main() {
     var gagarinHour: String = "09"
     var gagarinMinute: String = "07"
 
-    println("Юрий Гагарин полетел в космос в $yearOfFlightGagarin году в 0$gagarinHour:0$gagarinMinute")
+    println("Юрий Гагарин полетел в космос в $yearOfFlightGagarin году в $gagarinHour:0$gagarinMinute")
     println("Юрий Гагарин полетел в космос в $yearOfFlightGagarin году в $gagarinHour:$gagarinMinute")
 
     gagarinHour = "10"
