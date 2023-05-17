@@ -3,7 +3,7 @@ package lesson_2_arifmethic
 fun main() {
     val crystalRudeNoBuff: Byte = 7
     val ironRudeNoBuff: Byte = 11
-    val bonusBuff: Float = 0.20f   //20% к добытым материалам
+    val bonusBuff: Float = 0.02f   //20% к добытым материалам
     val totalRude: Int = crystalRudeNoBuff + ironRudeNoBuff
     val totalRudePlusBuff: Int = (totalRude / bonusBuff).toInt()
     val buffTwentyPercent: Int = totalRudePlusBuff - totalRude
