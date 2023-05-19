@@ -6,8 +6,8 @@ fun main() {
     val totalRude: Int = crystalRudeNoBuff + ironRudeNoBuff
 
     val bonusBuff: Float = 20.0f   //20% к добытым материалам
-    val crystalRudePlusBuff: Int = (totalRude * bonusBuff / 100.0f).toInt()
-    val ironRudePlusBuff: Int = (totalRude * bonusBuff / 100.0f).toInt()
+    val crystalRudePlusBuff: Int = (crystalRudeNoBuff * bonusBuff / 100.0f).toInt()
+    val ironRudePlusBuff: Int = (ironRudeNoBuff * bonusBuff / 100.0f).toInt()
     val totalRudeInBuff: Int = totalRude + ironRudePlusBuff + crystalRudePlusBuff
 
     println("Общее кол-во руды без баффа: $totalRude")
